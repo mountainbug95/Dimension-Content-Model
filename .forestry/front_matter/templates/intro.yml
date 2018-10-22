@@ -3,15 +3,17 @@ label: Intro Section
 is_partial: true
 fields:
   - type: text
-    name: element_id
-    label: Section ID
-    description: The ID of the section
-    config:
-      required: true
-  - type: text
     name: title
     label: Section Title
     description: The title of the section
+    default: Intro
+    config:
+      required: true
+  - type: text
+    name: element_id
+    label: Section ID
+    description: The ID of the section
+    default: intro
     config:
       required: true
   - type: text
