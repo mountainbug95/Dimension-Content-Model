@@ -1,0 +1,3 @@
+title: Dimension
+baseurl: /
+permalink: '/posts/:slug:output_ext'

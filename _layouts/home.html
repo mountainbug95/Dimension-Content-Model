@@ -1,0 +1,20 @@
+---
+layout: body
+---
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    {% include header.html %}
+
+    <!-- Main -->
+    <div id="main">
+        {% for section in page.sections %}
+            
+            {% include {{ section.component }} section=section %}
+        {% endfor %}
+    </div>
+
+    {% include footer.html %}
+
+</div>

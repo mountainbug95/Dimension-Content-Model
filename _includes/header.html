@@ -1,0 +1,19 @@
+<!-- Header -->
+<header id="header">
+    <div class="logo">
+        <span class="icon fa-diamond"></span>
+    </div>
+    <div class="content">
+        <div class="inner">
+            <h1>{{ page.header.title }}</h1>
+            {{ page.header.subtitle | markdownify }}
+        </div>
+    </div>
+    <nav>
+        <ul>
+            {% for section in page.sections %}
+                <li><a href="#{{ section.element_id }}">{{ section.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

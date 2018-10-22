@@ -1,0 +1,43 @@
+---
+label: Home
+hide_body: true
+is_partial: false
+fields:
+  - type: text
+    name: template
+    label: Template
+    hidden: true
+    default: home
+    config:
+      required: true
+  - type: field_group
+    name: header
+    label: Landing Header
+    description: The text displayed above the section tabs on the landing page
+    fields:
+      - type: text
+        name: title
+        label: Landing Title
+        description: The title displayed on the landing page
+        config:
+          required: true
+      - type: textarea
+        name: subtitle
+        label: Landing Subtitle
+        description: The text displayed below the landing page title
+        config:
+          wysiwyg: true
+          schema:
+            format: markdown
+  - type: blocks
+    name: sections
+    label: Page Sections
+    description: The different page sections (displayed as tabs on the landing)
+    template_types:
+      - intro
+      - work
+      - about
+      - contact
+      - elements
+pages:
+  - index.md

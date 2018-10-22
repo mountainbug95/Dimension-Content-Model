@@ -1,0 +1,37 @@
+---
+label: Work Section
+is_partial: true
+fields:
+  - type: text
+    name: element_id
+    label: Section ID
+    description: The ID of the section
+    config:
+      required: true
+  - type: text
+    name: title
+    label: Section Title
+    description: The title of the section
+    config:
+      required: true
+  - type: text
+    name: component
+    label: Section Component
+    hidden: true
+    default: section-simple.html
+    config:
+      required: true
+  - type: file
+    name: image_url
+    label: Image
+    description: Image displayed above section content
+  - type: text
+    name: image_alt
+    label: Image Alternate Text
+  - type: textarea
+    name: content
+    label: Section Content
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
