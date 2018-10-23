@@ -10,6 +10,25 @@ fields:
     default: home
     config:
       required: true
+  - type: field_group
+    name: header
+    label: Landing Header
+    description: The text displayed above the section tabs on the landing page
+    fields:
+      - type: text
+        name: title
+        label: Landing Title
+        description: The title displayed on the landing page
+        config:
+          required: true
+      - type: textarea
+        name: subtitle
+        label: Landing Subtitle
+        description: The text displayed below the landing page title
+        config:
+          wysiwyg: true
+          schema:
+            format: markdown
   - type: blocks
     name: sections
     label: Sections
