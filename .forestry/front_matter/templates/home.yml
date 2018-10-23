@@ -32,7 +32,7 @@ fields:
   - type: blocks
     name: sections
     label: Page Sections
-    description: The different page sections (displayed as tabs on the landing)
+    description: The different page sections
     template_types:
       - intro
       - work
