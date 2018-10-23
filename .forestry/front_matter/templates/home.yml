@@ -34,7 +34,7 @@ fields:
     label: Page Sections
     description: Home Sections
     template_types:
-      - intro
+      - generic
       - contact
       - elements
 pages:
