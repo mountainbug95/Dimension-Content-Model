@@ -29,15 +29,5 @@ fields:
           wysiwyg: true
           schema:
             format: markdown
-  - type: blocks
-    name: sections
-    label: Page Sections
-    description: The different page sections (displayed as tabs on the landing)
-    template_types:
-      - intro
-      - work
-      - about
-      - contact
-      - elements
 pages:
   - index.md
