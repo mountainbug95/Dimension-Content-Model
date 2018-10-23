@@ -1,9 +1,9 @@
 ---
 header:
   title: Dimension
-  subtitle: >-
-    A morbi blandit ante natoque aliquet ut Commodo cep cubilia<br />cep quam
-    augue vel Feugiat Aliquam egestas.
+  subtitle: |-
+    A morbi blandit ante natoque aliquet ut Commodo cep cubilia  
+    cep quam augue vel Feugiat Aliquam egestas.
 sections:
   - title: Intro
     element_id: intro
