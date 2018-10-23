@@ -17,5 +17,3 @@ fields:
     label: Section Component
     hidden: true
     default: section-elements.html
-    config:
-      required: true

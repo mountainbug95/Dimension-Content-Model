@@ -14,5 +14,3 @@ fields:
     name: component
     label: Section Component
     hidden: true
-    config:
-      required: true

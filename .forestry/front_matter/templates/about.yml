@@ -17,8 +17,6 @@ fields:
     label: Section Component
     hidden: true
     default: section-simple.html
-    config:
-      required: true
   - type: file
     name: image_url
     label: Image
