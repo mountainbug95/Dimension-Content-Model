@@ -29,11 +29,16 @@ fields:
           wysiwyg: true
           schema:
             format: markdown
-  - type: blocks
+  - type: field_group_list
     name: sections
     label: Sections
     description: Home Sections
-    template_types:
-      - elements
+    config:
+      labelField: title
+    fields:
+      - type: include
+        name: include_elements
+        label: Elements Section
+        template: elements
 pages:
   - index.md
