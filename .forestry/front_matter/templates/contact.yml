@@ -7,15 +7,11 @@ fields:
     label: Section Title
     description: The title of the section
     default: Contact
-    config:
-      required: true
   - type: text
     name: element_id
     label: Section ID
     description: The ID of the section
     default: contact
-    config:
-      required: true
   - type: text
     name: component
     label: Section Component
