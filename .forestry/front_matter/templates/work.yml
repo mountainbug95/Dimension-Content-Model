@@ -7,16 +7,22 @@ fields:
     label: Section Title
     description: The title of the section
     default: Work
+    config:
+      required: true
   - type: text
     name: element_id
     label: Section ID
     description: The ID of the section
     default: work
+    config:
+      required: true
   - type: text
     name: component
     label: Section Component
     hidden: true
     default: section-simple.html
+    config:
+      required: true
   - type: file
     name: image_url
     label: Image
