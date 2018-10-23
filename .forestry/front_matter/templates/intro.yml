@@ -30,10 +30,3 @@ fields:
   - type: text
     name: image_alt
     label: Image Alternate Text
-  - type: textarea
-    name: content
-    label: Section Content
-    config:
-      wysiwyg: true
-      schema:
-        format: markdown
