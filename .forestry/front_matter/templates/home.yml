@@ -31,7 +31,7 @@ fields:
             format: markdown
   - type: blocks
     name: sections
-    label: Sections
+    label: Page Sections
     description: Home Sections
     template_types:
       - intro
