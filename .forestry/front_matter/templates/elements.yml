@@ -20,6 +20,6 @@ fields:
     name: component
     label: Section Component
     hidden: true
-    default: section-elements.html
+    default: section_elements.html
     config:
       required: true

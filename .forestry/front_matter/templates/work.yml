@@ -20,7 +20,7 @@ fields:
     name: component
     label: Section Component
     hidden: true
-    default: section-simple.html
+    default: section_simple.html
     config:
       required: true
   - type: file
