@@ -37,8 +37,8 @@ fields:
       labelField: title
     fields:
       - type: include
-        name: include_contact
-        label: Contact Section
-        template: contact
+        name: include_intro
+        label: Intro Section
+        template: intro
 pages:
   - index.md
