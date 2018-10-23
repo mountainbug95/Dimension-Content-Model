@@ -5,18 +5,24 @@ header:
     A morbi blandit ante natoque aliquet ut Commodo cep cubilia  
     cep quam augue vel Feugiat Aliquam egestas.
 sections:
-  - title: About
-    element_id: about
-    image_url: images/pic03.jpg
-    image_alt: About image
+  - title: Work
+    element_id: work
+    image_url: images/pic02.jpg
+    image_alt: Work image
     component: section_simple.html
     content: >-
-      Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-      eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat
-      volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam.
-      Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et
-      malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit
-      amet ex mollis mattis lorem ipsum dolor sit amet.
+      Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at
+      eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi,
+      fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec
+      lorem luctus ultrices.
+
+
+      Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
+      Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque
+      condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel
+      lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat
+      tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc
+      rhoncus amet feugiat tempus.
     template: section_simple
 layout: home
 ---

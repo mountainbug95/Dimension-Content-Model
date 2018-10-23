@@ -37,8 +37,8 @@ fields:
       labelField: title
     fields:
       - type: include
-        name: include_about
-        label: About Section
-        template: about
+        name: include_work
+        label: Work Section
+        template: work
 pages:
   - index.md
