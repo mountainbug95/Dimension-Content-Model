@@ -22,23 +22,3 @@ fields:
     default: section_elements.html
     config:
       required: true
-  - type: file
-    name: image_url
-    label: Image
-    description: Image displayed above section content
-    hidden: true
-    default: ''
-  - type: text
-    name: image_alt
-    label: Image Alternate Text
-    hidden: true
-    default: ''
-  - type: textarea
-    name: content
-    label: Section Content
-    hidden: true
-    default: ''
-    config:
-      wysiwyg: true
-      schema:
-        format: markdown
