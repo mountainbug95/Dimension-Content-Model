@@ -2,6 +2,20 @@
 label: Work Section
 is_partial: true
 fields:
+  - type: textarea
+    name: content
+    label: Section Content
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: text
+    name: image_alt
+    label: Image Alternate Text
+  - type: file
+    name: image_url
+    label: Image
+    description: Image displayed above section content
   - type: text
     name: title
     label: Section Title
@@ -16,20 +30,6 @@ fields:
     default: work
     config:
       required: true
-  - type: file
-    name: image_url
-    label: Image
-    description: Image displayed above section content
-  - type: text
-    name: image_alt
-    label: Image Alternate Text
-  - type: textarea
-    name: content
-    label: Section Content
-    config:
-      wysiwyg: true
-      schema:
-        format: markdown
   - type: text
     name: component
     hidden: true
