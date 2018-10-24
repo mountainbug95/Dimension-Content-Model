@@ -33,7 +33,9 @@ fields:
     name: sections
     label: Sections
     description: Home Sections
-    config:
-      max: 1
+    template_types:
+      - section_simple
+      - section_contact
+      - section_elements
 pages:
   - index.md

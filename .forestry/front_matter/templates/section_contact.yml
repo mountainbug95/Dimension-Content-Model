@@ -1,5 +1,5 @@
 ---
-label: Section
+label: Contact Section
 is_partial: true
 display_field: title
 fields:
@@ -7,16 +7,19 @@ fields:
     name: title
     label: Section Title
     description: The title of the section
+    default: Contact
     config:
       required: true
   - type: text
     name: element_id
     label: Section ID
     description: The ID of the section
+    default: contact
     config:
       required: true
   - type: text
     name: component
     hidden: true
+    default: section_contact.html
     config:
       required: true
