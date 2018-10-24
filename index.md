@@ -9,7 +9,6 @@ sections:
     element_id: intro
     image_url: images/pic01.jpg
     image_alt: Intro image
-    component: section_simple.html
     content: >-
       Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam
       facilisis ante interdum congue. Integer mollis, nisl amet convallis,
@@ -28,12 +27,12 @@ sections:
       senectus et netus et malesuada fames ac turpis egestas. In non lorem sit
       amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed
       vehicula.
+    component: section_simple.html
     template: section_simple
   - title: Work
     element_id: work
     image_url: images/pic02.jpg
     image_alt: Work image
-    component: section_simple.html
     content: >-
       Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at
       eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi,
@@ -47,12 +46,12 @@ sections:
       lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat
       tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc
       rhoncus amet feugiat tempus.
+    component: section_simple.html
     template: section_simple
   - title: About
     element_id: about
     image_url: images/pic03.jpg
     image_alt: About image
-    component: section_simple.html
     content: >-
       Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
       eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat
@@ -60,6 +59,7 @@ sections:
       Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et
       malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit
       amet ex mollis mattis lorem ipsum dolor sit amet.
+    component: section_simple.html
     template: section_simple
   - title: Contact
     element_id: contact
