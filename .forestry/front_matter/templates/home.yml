@@ -33,11 +33,7 @@ fields:
     name: sections
     label: Sections
     description: Home Sections
-    template_types:
-      - intro
-      - work
-      - about
-      - contact
-      - elements
+    config:
+      max: 1
 pages:
   - index.md
