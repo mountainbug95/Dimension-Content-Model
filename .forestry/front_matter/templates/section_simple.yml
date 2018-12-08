@@ -34,6 +34,7 @@ fields:
         format: markdown
   - type: text
     name: component
+    label: Section Component
     hidden: true
     default: section_simple.html
     config:
