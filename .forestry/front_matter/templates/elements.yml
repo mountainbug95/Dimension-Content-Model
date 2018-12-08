@@ -1,24 +1,4 @@
 ---
 label: Elements Section
 is_partial: true
-fields:
-  - type: text
-    name: title
-    label: Section Title
-    description: The title of the section
-    default: Elements
-    config:
-      required: true
-  - type: text
-    name: element_id
-    label: Section ID
-    description: The ID of the section
-    default: elements
-    config:
-      required: true
-  - type: text
-    name: component
-    hidden: true
-    default: section_elements.html
-    config:
-      required: true
+fields: []
