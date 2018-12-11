@@ -1,7 +1,0 @@
-<article id="{{ include.section.element_id }}">
-    <h2 class="major">{{ include.section.title }}</h2>
-    {% if include.section.image_url %}
-        <span class="image main"><img src="{{ include.section.image_url | relative_url }}" alt="{{ include.section.image_alt }}" /></span>
-    {% endif %}
-    {{ include.section.content | markdownify }}
-</article>
